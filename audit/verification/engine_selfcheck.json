@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "baseline_name": "2026.11期中考试四年级名单.xlsx",
+  "output_name": "2026.11期中考试四年级名单_重建.xlsx",
+  "checks": [
+    {
+      "cell": "四年级!G50",
+      "expected": 214,
+      "actual": 214
+    },
+    {
+      "cell": "四年级!G51",
+      "expected": 206,
+      "actual": 206
+    },
+    {
+      "cell": "四年级!G54",
+      "expected": 15948,
+      "actual": 15948
+    },
+    {
+      "cell": "四年级!G65",
+      "expected": 17053,
+      "actual": 17053
+    },
+    {
+      "cell": "四年级!B50",
+      "expected": 44,
+      "actual": 44
+    },
+    {
+      "cell": "四年级!B51",
+      "expected": 42,
+      "actual": 42
+    },
+    {
+      "cell": "四年级!B54",
+      "expected": 3485,
+      "actual": 3485
+    },
+    {
+      "cell": "四年级!B55",
+      "expected": 82.97619047619048,
+      "actual": 82.97619047619048
+    },
+    {
+      "cell": "四年级!B65",
+      "expected": 3729,
+      "actual": 3729
+    },
+    {
+      "cell": "四年级!C50",
+      "expected": 44,
+      "actual": 44
+    },
+    {
+      "cell": "四年级!C51",
+      "expected": 42,
+      "actual": 42
+    },
+    {
+      "cell": "四年级!C54",
+      "expected": 3116,
+      "actual": 3116
+    },
+    {
+      "cell": "四年级!C55",
+      "expected": 74.19047619047619,
+      "actual": 74.19047619047619
+    },
+    {
+      "cell": "四年级!C65",
+      "expected": 3338,
+      "actual": 3338
+    },
+    {
+      "cell": "四年级!D50",
+      "expected": 42,
+      "actual": 42
+    },
+    {
+      "cell": "四年级!D51",
+      "expected": 40,
+      "actual": 40
+    },
+    {
+      "cell": "四年级!D54",
+      "expected": 3117,
+      "actual": 3117
+    },
+    {
+      "cell": "四年级!D55",
+      "expected": 77.925,
+      "actual": 77.925
+    },
+    {
+      "cell": "四年级!D65",
+      "expected": 3303,
+      "actual": 3303
+    },
+    {
+      "cell": "四年级!E50",
+      "expected": 42,
+      "actual": 42
+    },
+    {
+      "cell": "四年级!E51",
+      "expected": 42,
+      "actual": 42
+    },
+    {
+      "cell": "四年级!E54",
+      "expected": 3280,
+      "actual": 3280
+    },
+    {
+      "cell": "四年级!E55",
+      "expected": 78.0952380952381,
+      "actual": 78.0952380952381
+    },
+    {
+      "cell": "四年级!E65",
+      "expected": 3534,
+      "actual": 3534
+    },
+    {
+      "cell": "四年级!F50",
+      "expected": 42,
+      "actual": 42
+    },
+    {
+      "cell": "四年级!F51",
+      "expected": 40,
+      "actual": 40
+    },
+    {
+      "cell": "四年级!F54",
+      "expected": 2950,
+      "actual": 2950
+    },
+    {
+      "cell": "四年级!F55",
+      "expected": 73.75,
+      "actual": 73.75
+    },
+    {
+      "cell": "四年级!F65",
+      "expected": 3149,
+      "actual": 3149
+    }
+  ],
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "native_metadata": {
+    "print_settings_restored": [
+      "一年级",
+      "二年级",
+      "三年级",
+      "五年级"
+    ],
+    "chart_caches": [
+      {
+        "path": "xl/drawings/charts/chart1.xml",
+        "caches": [
+          {
+            "formula": "'四年级分析'!$A$7:$A$11",
+            "count": 5
+          },
+          {
+            "formula": "'四年级分析'!$A$7:$A$11",
+            "count": 5
+          },
+          {
+            "formula": "'四年级分析'!$F$7:$F$11",
+            "count": 5
+          },
+          {
+            "formula": "'四年级分析'!$G$7:$G$11",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "path": "xl/drawings/charts/chart2.xml",
+        "caches": [
+          {
+            "formula": "'四年级分析'!$I$18:$I$22",
+            "count": 5
+          },
+          {
+            "formula": "'四年级分析'!$J$18:$J$22",
+            "count": 5
+          }
+        ]
+      }
+    ]
+  },
+  "authored_changes": "No score/name edits. Recalculated existing formulas and re-exported the seven-sheet baseline.",
+  "narrative_policy": "Dated 2026-11-06 commentary is a historical snapshot; review it when input scores change.",
+  "report_path_note": "Absolute execution paths normalized to paths relative to the extracted project; all measured values and hashes preserved."
+}

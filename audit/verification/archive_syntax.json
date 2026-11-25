@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "file": "src/archive/build_20261106.mjs",
+      "method": "node --check",
+      "sha256": "8c27115a03923ca3423effd77269da1a5ae1e9a668353eebb9186291c1ef77ab"
+    },
+    {
+      "file": "src/archive/preserve_native_metadata_20261106.py",
+      "method": "Python ast.parse",
+      "sha256": "3782414a2f63639393bdcf7c47f613de4f61ba4d6ac696893d05e7a3b6514dc5"
+    }
+  ],
+  "scope": "Syntax-only checks for conversation-reconstructed historical code; the historical five-sheet rebuild was not executed because the original input bytes are unavailable."
+}

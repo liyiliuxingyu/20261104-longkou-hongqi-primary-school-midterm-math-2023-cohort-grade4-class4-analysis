@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "method": "Human-visible inspection of three artifact-tool-rendered PNG previews by the assistant.",
+  "reviewed_ranges": [
+    {
+      "sheet": "四年级分析",
+      "range": "A1:L24",
+      "file": "previews/analysis.png"
+    },
+    {
+      "sheet": "四年级分析",
+      "range": "A26:L42",
+      "file": "previews/charts.png"
+    },
+    {
+      "sheet": "数据核查",
+      "range": "A1:G14",
+      "file": "previews/audit.png"
+    }
+  ],
+  "observations": [
+    "表头、关键统计、分段人数及说明可读，无已观察到的内容遮挡。",
+    "两张图表有有效柱形和标签，锚点不重叠，数值轴从0开始。",
+    "5班参考均分显示78.73，核查区条件总分3132、差额-3清晰显示。"
+  ],
+  "limits": [
+    "预览来自当前表格引擎内存模型；导出后元数据和缓存另由只读验证器核查。",
+    "未在Windows Excel/WPS客户端中打开、打印或验证全部七张工作表的视觉表现。"
+  ]
+}

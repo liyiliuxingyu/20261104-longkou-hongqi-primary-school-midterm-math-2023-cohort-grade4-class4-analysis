@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "local_date": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "procedure": "Created ZIP, extracted to a different directory containing spaces and Chinese characters, then invoked run.py from outside the project root.",
+  "commands": [
+    {
+      "command": "python run.py verify",
+      "exit_code": 0,
+      "verified_payload_files": 23
+    },
+    {
+      "command": "python run.py doctor",
+      "exit_code": 0
+    },
+    {
+      "command": "python run.py analyze",
+      "exit_code": 0,
+      "students": 214,
+      "numeric_base_scores": 206,
+      "base_sum": 15948,
+      "reference_total": 17053
+    },
+    {
+      "command": "python run.py rebuild --render",
+      "exit_code": 0,
+      "engine_cell_checks": 29,
+      "independent_check_groups": 22
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.22.3",
+    "artifact_tool": "2.8.169",
+    "bundle": "26.1117.11355",
+    "platform": "linux"
+  },
+  "tested_source_sha256": {
+    "run.py": "2ddfc8609dc12e500a4e6fdcd0b7e6ed008f4aa5f8a7c979acae86a6b6ea299b",
+    "project.json": "2acdfc1ee2fd9c012d4a4eff1f32f9f5abffb484af24ec9fb85e35f6f3de2921",
+    "src/audit.py": "36c7b6967e63189b27cc010845a97198c689a5b2a55294fdbfd52d30a3f48c3c",
+    "src/rebuild.mjs": "e5b5cc79a57178138a469f900b0dfa73b81192ee81f28f47d160651e2f377215",
+    "src/preserve_native_metadata.py": "a3f01d56e6a955fbb0dc9593ff616a158895c130cf2e1c3b8da06212ded3a0cd",
+    "src/validate_workbook.py": "fe197dbae6e9a3b2b49b1acffc460046eee17afb567602aee08ef77a59cdf49b",
+    "inputs/2026.11期中考试四年级名单.xlsx": "f1be87a06018d10b9763f0674f288710a3284a3c7c45e90e7fe5b796f4492307"
+  },
+  "rebuild_output": {
+    "filename": "2026.11期中考试四年级名单_重建.xlsx",
+    "size_bytes": 46376,
+    "sha256": "99ffdf94023ae206910cda93c75b8d4a328bd9795474159555b7c1402a189b2b",
+    "included_in_package": false,
+    "reason": "Equivalent regenerated test output; the original recovered baseline is the continuing editable input."
+  },
+  "evidence": [
+    "engine_selfcheck.json",
+    "rebuild_validation.json",
+    "visual_review.json",
+    "previews/analysis.png",
+    "previews/charts.png",
+    "previews/audit.png"
+  ],
+  "scope_note": "Full rebuild tested against these exact source/input hashes. Later changes to documentation and evidence do not change the exercised pipeline. Final packaged files receive a fresh MANIFEST and another extraction check."
+}
