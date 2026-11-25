@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "project": "grade4_midterm_202611",
+  "manifest_scope": "All payload files except MANIFEST.json itself; transient outputs are excluded.",
+  "files": [
+    {
+      "path": "DEPENDENCIES.md",
+      "size_bytes": 2444,
+      "sha256": "f478b733e6a141f56d289cd5e43c49dbefa5fd6a2aff816b5f816a7ff9044725"
+    },
+    {
+      "path": "HANDOFF.md",
+      "size_bytes": 5999,
+      "sha256": "efffef3a5847e565478d562e77203269fe3db43ad37b00dc2f78b57efca3efe6"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 7059,
+      "sha256": "baebb8ef5e52753f2229f8c12062d57934523db1afa91f3bb815adc97343264f"
+    },
+    {
+      "path": "START_HERE.txt",
+      "size_bytes": 1831,
+      "sha256": "633c5f4ff398a0231a88665392907797aed6531dcef4f6e58c64c39c097a6107"
+    },
+    {
+      "path": "STATUS.json",
+      "size_bytes": 2562,
+      "sha256": "9193f09bbdcec1a8fa3815db7791235209d4fe0ea9a9e8fdfad76d4049a27369"
+    },
+    {
+      "path": "audit/analysis.json",
+      "size_bytes": 198351,
+      "sha256": "f2a0929a978cbe1d7d520cf0098db6fe7c576fb04ef69478f125f0f3a4ad5049"
+    },
+    {
+      "path": "audit/portable_audit_report.json",
+      "size_bytes": 63164,
+      "sha256": "ef13d917ca57f54721174d34f12529ac9626c022a32b654a6746e22e60eec70b"
+    },
+    {
+      "path": "audit/reference_validation.json",
+      "size_bytes": 24068,
+      "sha256": "d9ed237ae4c5ee3eb1ad85a0d3f4bbe503c06c4e32213f8b34b2db5c22f70e7a"
+    },
+    {
+      "path": "audit/source_cells.json",
+      "size_bytes": 636641,
+      "sha256": "54d15e5725d64fa7290212354e51474b1b4f2103c6681f1c2ea19fc150ee2efb"
+    },
+    {
+      "path": "audit/students.csv",
+      "size_bytes": 14165,
+      "sha256": "3b614e25ca489ab23f0570ae1913c671e41f9daad467071cfc7b5ee2ea857698"
+    },
+    {
+      "path": "audit/verification/archive_syntax.json",
+      "size_bytes": 599,
+      "sha256": "c74f2337a5f2a0988c4283492ed492b8e030dfa63ec3bcc2235d5741dcdadf38"
+    },
+    {
+      "path": "audit/verification/engine_selfcheck.json",
+      "size_bytes": 4252,
+      "sha256": "deea336af9568995a6a0425adde838b745c32d3de3ef5f7fac794a9a23049cab"
+    },
+    {
+      "path": "audit/verification/fresh_extraction_run.json",
+      "size_bytes": 2463,
+      "sha256": "4769faff30add968f2d3a7e402e1583c9371ddd2854d36c335afa4bfc2f64683"
+    },
+    {
+      "path": "audit/verification/previews/analysis.png",
+      "size_bytes": 189302,
+      "sha256": "9e5efc4f94b0de35d1aded700f9f2eb35cf1e8eb3df66f36a58b1573345275a7"
+    },
+    {
+      "path": "audit/verification/previews/audit.png",
+      "size_bytes": 142151,
+      "sha256": "83983b688a1896b1f89e940a72caa56315d879e5ab3cb81043d99ef3d9ee843b"
+    },
+    {
+      "path": "audit/verification/previews/charts.png",
+      "size_bytes": 62471,
+      "sha256": "92076949f22317382c9573be4f517c46201f4ab7a8e60923cabcd0e7acb2eef2"
+    },
+    {
+      "path": "audit/verification/rebuild_validation.json",
+      "size_bytes": 24092,
+      "sha256": "25b0244b7558a2eb3b9c1a7e8500c51ff00390d3fac4043e0268f762d0a4130e"
+    },
+    {
+      "path": "audit/verification/visual_review.json",
+      "size_bytes": 1007,
+      "sha256": "828d4631ee85f19424c1346808c6f74c03f73bb6533a36d95979864f852cd5e9"
+    },
+    {
+      "path": "inputs/2026.11期中考试四年级名单.xlsx",
+      "size_bytes": 46380,
+      "sha256": "f1be87a06018d10b9763f0674f288710a3284a3c7c45e90e7fe5b796f4492307"
+    },
+    {
+      "path": "project.json",
+      "size_bytes": 831,
+      "sha256": "2acdfc1ee2fd9c012d4a4eff1f32f9f5abffb484af24ec9fb85e35f6f3de2921"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 353,
+      "sha256": "1a268369c7f058e0143aaf98c4dac5887e6137e6a83ee9ebac56c560aeed968c"
+    },
+    {
+      "path": "run.py",
+      "size_bytes": 9378,
+      "sha256": "2ddfc8609dc12e500a4e6fdcd0b7e6ed008f4aa5f8a7c979acae86a6b6ea299b"
+    },
+    {
+      "path": "run_linux.sh",
+      "size_bytes": 185,
+      "sha256": "dd28aedc1f1843f2e585f26233b6295de5355062961a9c79417076105b2ceadd"
+    },
+    {
+      "path": "run_windows.cmd",
+      "size_bytes": 172,
+      "sha256": "19b340b0bb69c8087b673c65b53ab1eb30fbfe5fa65ba1c1028d9f962fdc1789"
+    },
+    {
+      "path": "src/archive/RESTORATION_NOTES.txt",
+      "size_bytes": 4579,
+      "sha256": "54385129e0a0f4eafe06980828887d181647cf53b2307101df073747dc5258fb"
+    },
+    {
+      "path": "src/archive/build_20261106.mjs",
+      "size_bytes": 25619,
+      "sha256": "8c27115a03923ca3423effd77269da1a5ae1e9a668353eebb9186291c1ef77ab"
+    },
+    {
+      "path": "src/archive/preserve_native_metadata_20261106.py",
+      "size_bytes": 8469,
+      "sha256": "3782414a2f63639393bdcf7c47f613de4f61ba4d6ac696893d05e7a3b6514dc5"
+    },
+    {
+      "path": "src/audit.py",
+      "size_bytes": 29769,
+      "sha256": "36c7b6967e63189b27cc010845a97198c689a5b2a55294fdbfd52d30a3f48c3c"
+    },
+    {
+      "path": "src/preserve_native_metadata.py",
+      "size_bytes": 7949,
+      "sha256": "a3f01d56e6a955fbb0dc9593ff616a158895c130cf2e1c3b8da06212ded3a0cd"
+    },
+    {
+      "path": "src/rebuild.mjs",
+      "size_bytes": 4242,
+      "sha256": "e5b5cc79a57178138a469f900b0dfa73b81192ee81f28f47d160651e2f377215"
+    },
+    {
+      "path": "src/validate_workbook.py",
+      "size_bytes": 45060,
+      "sha256": "fe197dbae6e9a3b2b49b1acffc460046eee17afb567602aee08ef77a59cdf49b"
+    }
+  ]
+}

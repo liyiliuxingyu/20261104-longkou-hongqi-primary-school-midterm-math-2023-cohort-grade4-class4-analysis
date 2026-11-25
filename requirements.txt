@@ -1,0 +1,5 @@
+# Verification, extraction, analysis, packaging and XML validation use only
+# the Python standard library. Tested with Python 3.12.14; Python >= 3.10.
+# There are no pip dependencies for these commands.
+# XLSX rebuilding additionally needs the host-installed @oai/artifact-tool.
+# See DEPENDENCIES.md; do not assume it can be installed from public npm.

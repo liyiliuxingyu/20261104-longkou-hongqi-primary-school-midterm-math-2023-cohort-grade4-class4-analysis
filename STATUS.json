@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "project": "四年级期中成绩核查",
+  "packaged_on": "2026-11-20",
+  "data_analysis_date": "2026-11-06",
+  "phase": "ready_for_continuation",
+  "current_baseline": "inputs/2026.11期中考试四年级名单.xlsx",
+  "baseline_kind": "latest_completed_seven_sheet_workbook",
+  "baseline_bytes": 46380,
+  "baseline_sha256": "f1be87a06018d10b9763f0674f288710a3284a3c7c45e90e7fe5b796f4492307",
+  "counts": {
+    "students": 214,
+    "recorded_base_scores": 206,
+    "complete_scores": 199,
+    "missing_base": 8,
+    "only_missing_bonus": 7
+  },
+  "sums": {
+    "base": 15948,
+    "reference_total": 17053
+  },
+  "current_entrypoint": "python run.py rebuild --render",
+  "next_location": "数据核查!A40:G59",
+  "next_action": "根据用户提供的依据核实颜色规则、8条双空和7条附加分空白；先复核5班汇总来源。",
+  "completed": [
+    "已恢复最新七工作表基线",
+    "已重新提取分析JSON及CSV",
+    "已重建可见历史源码并做语法检查",
+    "已明确空白不等于0及颜色仅作条件对照",
+    "已在不同目录实际解压并执行校验、复算、Excel重建",
+    "重算29格与独立22项校验通过，3处渲染预览已查看"
+  ],
+  "verification": {
+    "baseline_independent_analysis": "passed",
+    "archive_source_syntax": "passed",
+    "fresh_extraction_integrity": "passed",
+    "fresh_extraction_analysis": "passed",
+    "fresh_extraction_full_rebuild": "passed",
+    "rebuild_visual_review": "passed",
+    "rebuilt_workbook_independent_checks": "22 passed",
+    "recalculated_key_cells": "29 passed"
+  },
+  "not_verified": [
+    "Windows Excel/WPS客户端打开与打印",
+    "Windows CMD包装器实际执行",
+    "不同运行环境逐像素排版一致",
+    "原五工作表上传附件的字节级一致性"
+  ],
+  "not_recovered": [
+    "最初五工作表上传原件字节",
+    "已清空的旧临时JSON/PNG原字节"
+  ],
+  "archived_source_provenance": "从本对话可见源码及补丁重建，并非从旧磁盘找回的逐字节原源码",
+  "business_open_items": [
+    "姓名颜色含义和正式剔除规则",
+    "8名学生两项成绩空白原因",
+    "7项附加分空白是否应为0或需补录",
+    "5班原手填3129与明细不一致",
+    "满分和学校等级标准"
+  ],
+  "claims_not_made": [
+    "未证明学校统计口径已经确认",
+    "未把3132认定为正式5班总分",
+    "未从总分推断具体错题或错因"
+  ],
+  "verification_evidence": "audit/verification/fresh_extraction_run.json"
+}

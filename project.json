@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "grade4_midterm_202611",
+  "archive_root": "四年级期中成绩核查_续作工程",
+  "packaged_on": "2026-11-20",
+  "baseline": "inputs/2026.11期中考试四年级名单.xlsx",
+  "baseline_role": "latest_completed_seven_sheet_workbook",
+  "baseline_sha256": "f1be87a06018d10b9763f0674f288710a3284a3c7c45e90e7fe5b796f4492307",
+  "baseline_sheet_count": 7,
+  "original_upload_bytes_available": false,
+  "rebuilt_filename": "2026.11期中考试四年级名单_重建.xlsx",
+  "class_columns": ["A:E", "F:J", "K:O", "P:T", "U:Y"],
+  "historical_original_input": "inputs/original_upload/2026.11期中考试四年级名单.xlsx",
+  "historical_original_input_present": false,
+  "network_needed_for_verify_or_analyze": false,
+  "network_needed_for_rebuild_when_dependencies_present": false
+}
