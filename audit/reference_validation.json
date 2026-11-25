@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "project": "2026.11四年级期中成绩七页恢复快照",
+  "validated_at_utc": "2026-11-19T16:17:08.954212+00:00",
+  "status": "passed",
+  "ok": true,
+  "input": {
+    "path": "inputs/2026.11期中考试四年级名单.xlsx",
+    "sha256": "f1be87a06018d10b9763f0674f288710a3284a3c7c45e90e7fe5b796f4492307",
+    "size_bytes": 46380
+  },
+  "reference": {
+    "path": "inputs/2026.11期中考试四年级名单.xlsx",
+    "sha256": "f1be87a06018d10b9763f0674f288710a3284a3c7c45e90e7fe5b796f4492307",
+    "size_bytes": 46380
+  },
+  "limitations": [
+    "验证器只读XLSX，独立核算本项目统计并检查存储缓存；不执行Excel/WPS公式引擎。",
+    "图表缓存和锚点通过不等于已经在Excel/WPS中实际打开或完成视觉验收。",
+    "reference检查只证明相对于实际提供基线的保留情况；不能证明与尚未恢复的最初五页原文件相同。",
+    "这是固定快照回归校验。后续合法更改学生或成绩后，应明确更新期望值，不能把旧快照通过作为新数据验收。",
+    "空基础分不作0分。7处附加分空白、姓名颜色含义和学校正式统计范围仍需人工确认。"
+  ],
+  "statistics": {
+    "classes": [
+      {
+        "class": 1,
+        "names": 44,
+        "base_count": 42,
+        "both_blank": 2,
+        "base_missing": 2,
+        "bonus_only_blank": 0,
+        "complete": 42,
+        "base_sum": 3485,
+        "total_sum": 3729,
+        "base_mean": 82.97619047619048,
+        "base_median": 86.5,
+        "base_sd": 16.477239850975526,
+        "total_mean": 88.78571428571429,
+        "bands": [
+          2,
+          2,
+          6,
+          17,
+          15
+        ],
+        "ge60": 0.9523809523809523,
+        "ge80": 0.7619047619047619,
+        "ge90": 0.35714285714285715,
+        "male": 20,
+        "female": 24
+      },
+      {
+        "class": 2,
+        "names": 44,
+        "base_count": 42,
+        "both_blank": 2,
+        "base_missing": 2,
+        "bonus_only_blank": 4,
+        "complete": 38,
+        "base_sum": 3116,
+        "total_sum": 3338,
+        "base_mean": 74.19047619047619,
+        "base_median": 82.5,
+        "base_sd": 24.241088785108815,
+        "total_mean": 79.47619047619048,
+        "bands": [
+          8,
+          1,
+          7,
+          17,
+          9
+        ],
+        "ge60": 0.8095238095238095,
+        "ge80": 0.6190476190476191,
+        "ge90": 0.21428571428571427,
+        "male": 23,
+        "female": 21
+      },
+      {
+        "class": 3,
+        "names": 42,
+        "base_count": 40,
+        "both_blank": 2,
+        "base_missing": 2,
+        "bonus_only_blank": 2,
+        "complete": 38,
+        "base_sum": 3117,
+        "total_sum": 3303,
+        "base_mean": 77.925,
+        "base_median": 86.5,
+        "base_sd": 23.005855232961892,
+        "total_mean": 82.575,
+        "bands": [
+          5,
+          1,
+          8,
+          11,
+          15
+        ],
+        "ge60": 0.875,
+        "ge80": 0.65,
+        "ge90": 0.375,
+        "male": 21,
+        "female": 21
+      },
+      {
+        "class": 4,
+        "names": 42,
+        "base_count": 42,
+        "both_blank": 0,
+        "base_missing": 0,
+        "bonus_only_blank": 1,
+        "complete": 41,
+        "base_sum": 3280,
+        "total_sum": 3534,
+        "base_mean": 78.0952380952381,
+        "base_median": 86,
+        "base_sd": 22.0549201117072,
+        "total_mean": 84.14285714285714,
+        "bands": [
+          7,
+          0,
+          5,
+          16,
+          14
+        ],
+        "ge60": 0.8333333333333334,
+        "ge80": 0.7142857142857143,
+        "ge90": 0.3333333333333333,
+        "male": 21,
+        "female": 21
+      },
+      {
+        "class": 5,
+        "names": 42,
+        "base_count": 40,
+        "both_blank": 2,
+        "base_missing": 2,
+        "bonus_only_blank": 0,
+        "complete": 40,
+        "base_sum": 2950,
+        "total_sum": 3149,
+        "base_mean": 73.75,
+        "base_median": 79,
+        "base_sd": 20.79873794248103,
+        "total_mean": 78.725,
+        "bands": [
+          6,
+          5,
+          10,
+          12,
+          7
+        ],
+        "ge60": 0.85,
+        "ge80": 0.475,
+        "ge90": 0.175,
+        "male": 20,
+        "female": 22
+      }
+    ],
+    "year": {
+      "names": 214,
+      "base_count": 206,
+      "both_blank": 8,
+      "base_missing": 8,
+      "bonus_only_blank": 7,
+      "complete": 199,
+      "base_sum": 15948,
+      "total_sum": 17053,
+      "base_mean": 77.41747572815534,
+      "base_median": 85,
+      "base_sd": 21.73205063255681,
+      "total_mean": 82.78155339805825,
+      "bands": [
+        28,
+        9,
+        36,
+        73,
+        60
+      ],
+      "ge60": 0.8640776699029126,
+      "ge80": 0.6456310679611651,
+      "ge90": 0.2912621359223301,
+      "male": 105,
+      "female": 109
+    }
+  },
+  "charts": [
+    {
+      "part": "xl/drawings/charts/chart1.xml",
+      "title": "各班基础分均值与中位数（分）",
+      "series": [
+        {
+          "series": 1,
+          "references": [
+            {
+              "role": "category",
+              "formula": "'四年级分析'!$A$7:$A$11",
+              "point_count": 5,
+              "cache": [
+                "1班",
+                "2班",
+                "3班",
+                "4班",
+                "5班"
+              ],
+              "cells": [
+                "1班",
+                "2班",
+                "3班",
+                "4班",
+                "5班"
+              ]
+            },
+            {
+              "role": "value",
+              "formula": "'四年级分析'!$F$7:$F$11",
+              "point_count": 5,
+              "cache": [
+                82.98,
+                74.19,
+                77.93,
+                78.1,
+                73.75
+              ],
+              "cells": [
+                82.98,
+                74.19,
+                77.93,
+                78.1,
+                73.75
+              ]
+            }
+          ]
+        },
+        {
+          "series": 2,
+          "references": [
+            {
+              "role": "category",
+              "formula": "'四年级分析'!$A$7:$A$11",
+              "point_count": 5,
+              "cache": [
+                "1班",
+                "2班",
+                "3班",
+                "4班",
+                "5班"
+              ],
+              "cells": [
+                "1班",
+                "2班",
+                "3班",
+                "4班",
+                "5班"
+              ]
+            },
+            {
+              "role": "value",
+              "formula": "'四年级分析'!$G$7:$G$11",
+              "point_count": 5,
+              "cache": [
+                86.5,
+                82.5,
+                86.5,
+                86,
+                79
+              ],
+              "cells": [
+                86.5,
+                82.5,
+                86.5,
+                86,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "role": "class_comparison",
+      "axes": [
+        {
+          "min": 0,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "part": "xl/drawings/charts/chart2.xml",
+      "title": "全年级基础分分布（人）",
+      "series": [
+        {
+          "series": 1,
+          "references": [
+            {
+              "role": "category",
+              "formula": "'四年级分析'!$I$18:$I$22",
+              "point_count": 5,
+              "cache": [
+                "＜60",
+                "60—＜70",
+                "70—＜80",
+                "80—＜90",
+                "≥90"
+              ],
+              "cells": [
+                "＜60",
+                "60—＜70",
+                "70—＜80",
+                "80—＜90",
+                "≥90"
+              ]
+            },
+            {
+              "role": "value",
+              "formula": "'四年级分析'!$J$18:$J$22",
+              "point_count": 5,
+              "cache": [
+                28,
+                9,
+                36,
+                73,
+                60
+              ],
+              "cells": [
+                28,
+                9,
+                36,
+                73,
+                60
+              ]
+            }
+          ]
+        }
+      ],
+      "role": "year_distribution",
+      "axes": [
+        {
+          "min": 0,
+          "max": 80
+        }
+      ]
+    }
+  ],
+  "observations": {
+    "sheet_names": [
+      "一年级",
+      "二年级",
+      "三年级",
+      "四年级",
+      "五年级",
+      "四年级分析",
+      "数据核查"
+    ],
+    "font_definition_charset_counts": {
+      "134": 17,
+      "not_declared": 37
+    },
+    "print_settings": {
+      "一年级": {
+        "pageMargins": {
+          "tag": "pageMargins",
+          "attributes": {
+            "bottom": "0.75",
+            "footer": "0.3",
+            "header": "0.3",
+            "left": "0.7",
+            "right": "0.7",
+            "top": "0.75"
+          },
+          "text": null,
+          "children": []
+        },
+        "pageSetup": {
+          "tag": "pageSetup",
+          "attributes": {
+            "horizontalDpi": "2E+2",
+            "orientation": "portrait",
+            "paperSize": "9",
+            "verticalDpi": "3E+2"
+          },
+          "text": null,
+          "children": []
+        },
+        "printOptions": null,
+        "headerFooter": null,
+        "rowBreaks": null,
+        "colBreaks": null,
+        "pageSetUpPr": null,
+        "defined_print_names": []
+      },
+      "二年级": {
+        "pageMargins": {
+          "tag": "pageMargins",
+          "attributes": {
+            "bottom": "0.75",
+            "footer": "0.3",
+            "header": "0.3",
+            "left": "0.7",
+            "right": "0.7",
+            "top": "0.75"
+          },
+          "text": null,
+          "children": []
+        },
+        "pageSetup": {
+          "tag": "pageSetup",
+          "attributes": {
+            "horizontalDpi": "2E+2",
+            "orientation": "portrait",
+            "paperSize": "9",
+            "verticalDpi": "3E+2"
+          },
+          "text": null,
+          "children": []
+        },
+        "printOptions": null,
+        "headerFooter": null,
+        "rowBreaks": null,
+        "colBreaks": null,
+        "pageSetUpPr": null,
+        "defined_print_names": []
+      },
+      "三年级": {
+        "pageMargins": {
+          "tag": "pageMargins",
+          "attributes": {
+            "bottom": "0.75",
+            "footer": "0.3",
+            "header": "0.3",
+            "left": "0.7",
+            "right": "0.7",
+            "top": "0.75"
+          },
+          "text": null,
+          "children": []
+        },
+        "pageSetup": {
+          "tag": "pageSetup",
+          "attributes": {
+            "horizontalDpi": "2E+2",
+            "orientation": "portrait",
+            "paperSize": "9",
+            "verticalDpi": "3E+2"
+          },
+          "text": null,
+          "children": []
+        },
+        "printOptions": null,
+        "headerFooter": null,
+        "rowBreaks": null,
+        "colBreaks": null,
+        "pageSetUpPr": null,
+        "defined_print_names": []
+      },
+      "四年级": {
+        "pageMargins": {
+          "tag": "pageMargins",
+          "attributes": {
+            "bottom": "0.75",
+            "footer": "0.3",
+            "header": "0.3",
+            "left": "0.7",
+            "right": "0.7",
+            "top": "0.75"
+          },
+          "text": null,
+          "children": []
+        },
+        "pageSetup": null,
+        "printOptions": null,
+        "headerFooter": null,
+        "rowBreaks": null,
+        "colBreaks": null,
+        "pageSetUpPr": null,
+        "defined_print_names": []
+      },
+      "五年级": {
+        "pageMargins": {
+          "tag": "pageMargins",
+          "attributes": {
+            "bottom": "0.75",
+            "footer": "0.3",
+            "header": "0.3",
+            "left": "0.7",
+            "right": "0.7",
+            "top": "0.75"
+          },
+          "text": null,
+          "children": []
+        },
+        "pageSetup": {
+          "tag": "pageSetup",
+          "attributes": {
+            "orientation": "portrait",
+            "paperSize": "9"
+          },
+          "text": null,
+          "children": []
+        },
+        "printOptions": null,
+        "headerFooter": null,
+        "rowBreaks": null,
+        "colBreaks": null,
+        "pageSetUpPr": null,
+        "defined_print_names": []
+      },
+      "四年级分析": {
+        "pageMargins": {
+          "tag": "pageMargins",
+          "attributes": {
+            "bottom": "0.75",
+            "footer": "0.3",
+            "header": "0.3",
+            "left": "0.7",
+            "right": "0.7",
+            "top": "0.75"
+          },
+          "text": null,
+          "children": []
+        },
+        "pageSetup": null,
+        "printOptions": null,
+        "headerFooter": null,
+        "rowBreaks": null,
+        "colBreaks": null,
+        "pageSetUpPr": null,
+        "defined_print_names": []
+      },
+      "数据核查": {
+        "pageMargins": {
+          "tag": "pageMargins",
+          "attributes": {
+            "bottom": "0.75",
+            "footer": "0.3",
+            "header": "0.3",
+            "left": "0.7",
+            "right": "0.7",
+            "top": "0.75"
+          },
+          "text": null,
+          "children": []
+        },
+        "pageSetup": null,
+        "printOptions": null,
+        "headerFooter": null,
+        "rowBreaks": null,
+        "colBreaks": null,
+        "pageSetUpPr": null,
+        "defined_print_names": []
+      }
+    }
+  },
+  "checks": [
+    {
+      "id": "sheets.expected",
+      "description": "7个工作表的名称和顺序与当前快照一致",
+      "status": "pass",
+      "expected": [
+        "一年级",
+        "二年级",
+        "三年级",
+        "四年级",
+        "五年级",
+        "四年级分析",
+        "数据核查"
+      ],
+      "observed": [
+        "一年级",
+        "二年级",
+        "三年级",
+        "四年级",
+        "五年级",
+        "四年级分析",
+        "数据核查"
+      ]
+    },
+    {
+      "id": "pupils.snapshot",
+      "description": "从学生输入独立核算人数、空白状态和总分",
+      "status": "pass",
+      "expected": {
+        "names": 214,
+        "base_count": 206,
+        "both_blank": 8,
+        "bonus_only_blank": 7,
+        "complete": 199,
+        "total_sum": 17053,
+        "base_sum": 15948
+      },
+      "observed": {
+        "names": 214,
+        "base_count": 206,
+        "both_blank": 8,
+        "bonus_only_blank": 7,
+        "complete": 199,
+        "total_sum": 17053,
+        "base_sum": 15948
+      }
+    },
+    {
+      "id": "pupils.classes",
+      "description": "五个班分别核算，防止跨班错位",
+      "status": "pass",
+      "expected": {
+        "names": [
+          44,
+          44,
+          42,
+          42,
+          42
+        ],
+        "base_count": [
+          42,
+          42,
+          40,
+          42,
+          40
+        ],
+        "both_blank": [
+          2,
+          2,
+          2,
+          0,
+          2
+        ],
+        "bonus_only_blank": [
+          0,
+          4,
+          2,
+          1,
+          0
+        ],
+        "complete": [
+          42,
+          38,
+          38,
+          41,
+          40
+        ],
+        "total_sum": [
+          3729,
+          3338,
+          3303,
+          3534,
+          3149
+        ]
+      },
+      "observed": {
+        "names": [
+          44,
+          44,
+          42,
+          42,
+          42
+        ],
+        "base_count": [
+          42,
+          42,
+          40,
+          42,
+          40
+        ],
+        "both_blank": [
+          2,
+          2,
+          2,
+          0,
+          2
+        ],
+        "bonus_only_blank": [
+          0,
+          4,
+          2,
+          1,
+          0
+        ],
+        "complete": [
+          42,
+          38,
+          38,
+          41,
+          40
+        ],
+        "total_sum": [
+          3729,
+          3338,
+          3303,
+          3534,
+          3149
+        ]
+      }
+    },
+    {
+      "id": "pupils.input_types",
+      "description": "姓名/性别完整，分数为数字或真正空白",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "record_count": 214
+    },
+    {
+      "id": "pupils.total_cache",
+      "description": "214个个人总分缓存与基础分及现录附加分一致，8处缺基础分保持空白",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "record_count": 214,
+      "blank_bonus_policy": "仅复核现录参考总分；附加分空白仍待核实，不等同已确认0分"
+    },
+    {
+      "id": "cells.regressions",
+      "description": "真实0分、空白学生行、移出合计、两位小数及5班差异保持正确",
+      "status": "pass",
+      "cells": [
+        {
+          "cell": "四年级!H43",
+          "expected": 0,
+          "observed": 0,
+          "matches": true
+        },
+        {
+          "cell": "四年级!J43",
+          "expected": 0,
+          "observed": 0,
+          "matches": true
+        },
+        {
+          "cell": "四年级!M9",
+          "expected": 0,
+          "observed": 0,
+          "matches": true
+        },
+        {
+          "cell": "四年级!N9",
+          "expected": 0,
+          "observed": 0,
+          "matches": true
+        },
+        {
+          "cell": "四年级!O9",
+          "expected": 0,
+          "observed": 0,
+          "matches": true
+        },
+        {
+          "cell": "四年级!J45",
+          "expected": null,
+          "observed": "",
+          "matches": true
+        },
+        {
+          "cell": "四年级!J47",
+          "expected": 3338,
+          "observed": 3338,
+          "matches": true
+        },
+        {
+          "cell": "四年级分析!L11",
+          "expected": 78.73,
+          "observed": 78.73,
+          "matches": true
+        },
+        {
+          "cell": "数据核查!F11",
+          "expected": 3132,
+          "observed": 3132,
+          "matches": true
+        },
+        {
+          "cell": "数据核查!F13",
+          "expected": -3,
+          "observed": -3,
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "summary.independent",
+      "description": "四年级统计区与Python独立计算相符，并保留公式",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "checked_cells": 126
+    },
+    {
+      "id": "analysis.independent",
+      "description": "分析主表与独立计算及十进制四舍五入相符",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "checked_cells": 66
+    },
+    {
+      "id": "formulas.error_scan",
+      "description": "工作簿中无公式错误缓存或#REF!引用",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "formula_count": 535,
+      "scope": "检查存储的错误值和引用；不运行Excel公式引擎"
+    },
+    {
+      "id": "formulas.cache_presence",
+      "description": "数值公式缓存没有缺失，合法空字符串缓存另行计数",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "formula_count": 535,
+      "blank_string_caches": 36
+    },
+    {
+      "id": "charts.count",
+      "description": "存在两个原生图表部件",
+      "status": "pass",
+      "expected": 2,
+      "observed": 2,
+      "parts": [
+        "xl/drawings/charts/chart1.xml",
+        "xl/drawings/charts/chart2.xml"
+      ]
+    },
+    {
+      "id": "charts.1.references",
+      "description": "各序列分类与数值缓存均有5点且与引用单元格对应",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "part": "xl/drawings/charts/chart1.xml",
+      "series_count": 2
+    },
+    {
+      "id": "charts.1.axis",
+      "description": "数值轴从0开始，均值图上限100、分布图上限80",
+      "status": "pass",
+      "part": "xl/drawings/charts/chart1.xml",
+      "role": "class_comparison",
+      "expected_max": 100,
+      "observed": [
+        {
+          "min": 0,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "id": "charts.2.references",
+      "description": "各序列分类与数值缓存均有5点且与引用单元格对应",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "part": "xl/drawings/charts/chart2.xml",
+      "series_count": 1
+    },
+    {
+      "id": "charts.2.axis",
+      "description": "数值轴从0开始，均值图上限100、分布图上限80",
+      "status": "pass",
+      "part": "xl/drawings/charts/chart2.xml",
+      "role": "year_distribution",
+      "expected_max": 80,
+      "observed": [
+        {
+          "min": 0,
+          "max": 80
+        }
+      ]
+    },
+    {
+      "id": "charts.roles",
+      "description": "两个图表分别展示班级均值/中位数和全年级分布",
+      "status": "pass",
+      "observed": [
+        "class_comparison",
+        "year_distribution"
+      ]
+    },
+    {
+      "id": "charts.anchors",
+      "description": "两个图表锚点均有效、各引用一个图表且互不重叠",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "anchors": [
+        {
+          "sheet": "四年级分析",
+          "drawing": "xl/drawings/drawing1.xml",
+          "chart": "xl/drawings/charts/chart1.xml",
+          "from": {
+            "col": 0,
+            "colOff": 0,
+            "row": 25,
+            "rowOff": 0
+          },
+          "to": {
+            "col": 6,
+            "colOff": 0,
+            "row": 41,
+            "rowOff": 0
+          }
+        },
+        {
+          "sheet": "四年级分析",
+          "drawing": "xl/drawings/drawing1.xml",
+          "chart": "xl/drawings/charts/chart2.xml",
+          "from": {
+            "col": 7,
+            "colOff": 0,
+            "row": 25,
+            "rowOff": 0
+          },
+          "to": {
+            "col": 12,
+            "colOff": 0,
+            "row": 41,
+            "rowOff": 0
+          }
+        }
+      ],
+      "scope": "按双单元格锚点坐标检查，不替代Excel/WPS视觉检查"
+    },
+    {
+      "id": "reference.other_grades",
+      "description": "其他四个年级的全部非空值及公式与所给基线一致",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "checked_cells": 1518
+    },
+    {
+      "id": "reference.student_inputs",
+      "description": "四年级所有学生的姓名、性别、基础分、附加分与基线一致",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "checked_cells": 856
+    },
+    {
+      "id": "reference.name_colors",
+      "description": "四年级姓名原字体颜色保留（比较解析颜色，不依赖样式ID）",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "checked_names": 214
+    },
+    {
+      "id": "reference.print_settings",
+      "description": "各基线工作表打印属性及打印区域/标题保留",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "fields": [
+        "pageMargins",
+        "pageSetup",
+        "printOptions",
+        "headerFooter",
+        "rowBreaks",
+        "colBreaks",
+        "sheetPr/pageSetUpPr",
+        "_xlnm.Print_Area",
+        "_xlnm.Print_Titles"
+      ]
+    },
+    {
+      "id": "reference.font_charset",
+      "description": "基线非空单元格的实际字体名称和charset保留（不强行补设未声明的charset）",
+      "status": "pass",
+      "difference_count": 0,
+      "differences": [],
+      "checked_cells": 3253
+    }
+  ],
+  "summary": {
+    "pass": 22
+  },
+  "report_path_note": "Input and reference paths normalized to the project-relative baseline path; measured values and hashes unchanged."
+}

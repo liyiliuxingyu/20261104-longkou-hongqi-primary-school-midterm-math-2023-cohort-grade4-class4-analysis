@@ -1,0 +1,3112 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-11-19T16:10:49.969533+00:00",
+  "input": {
+    "file_name": "2026.11期中考试四年级名单.xlsx",
+    "size_bytes": 46380,
+    "sha256": "f1be87a06018d10b9763f0674f288710a3284a3c7c45e90e7fe5b796f4492307",
+    "worksheet_names": [
+      "一年级",
+      "二年级",
+      "三年级",
+      "四年级",
+      "五年级",
+      "四年级分析",
+      "数据核查"
+    ],
+    "layout": "completed_seven_sheet_layout",
+    "provenance_note": "布局识别不证明文件来源。仅核查本次输入文件；没有与另一份原始上传附件进行字节比对。"
+  },
+  "method": {
+    "layout_scope": "按既定模板读取：1、2班第2—45行，3、4、5班第2—43行。如增删学生行或扩班，须先更新脚本BLOCKS和工作簿统计区域。",
+    "main_population": "基础分已录为数值的学生；保留数值0，不按姓名颜色剔除。",
+    "reference_total": "仅在基础分为数值时计算；附加分为空时暂不加分，不能认定已确认得0分。",
+    "bands": "基础分按＜60、60—＜70、70—＜80、80—＜90、≥90分组；不是已确认的学校等级标准。",
+    "standard_deviation": "总体标准差。",
+    "preservation": "source_cells.json保留本次输入的原解码值、类型、公式、公式属性和样式编号；数字仍为字符串。",
+    "limitations": "不是通用Excel计算引擎；未核验试卷、学籍、标色原因、缺分原因或正式统计范围。"
+  },
+  "actual_verification": {
+    "score_input_cells_read": 428,
+    "student_rows_read": 214,
+    "numeric_base_records_recomputed": 206,
+    "complete_score_records_checked": 199,
+    "student_cached_total_mismatches": [],
+    "selected_summary_cache_checks": [
+      {
+        "sheet": "四年级",
+        "cell": "B50",
+        "expected": 44,
+        "observed": 44,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B51",
+        "expected": 42,
+        "observed": 42,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B52",
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B53",
+        "expected": 0,
+        "observed": 0,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B54",
+        "expected": 3485,
+        "observed": 3485,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B55",
+        "expected": 82.97619047619048,
+        "observed": 82.97619047619048,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B56",
+        "expected": 86.5,
+        "observed": 86.5,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B57",
+        "expected": 16.477239850975526,
+        "observed": 16.47723985097553,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B63",
+        "expected": 0.9523809523809523,
+        "observed": 0.9523809523809523,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B64",
+        "expected": 0.35714285714285715,
+        "observed": 0.35714285714285715,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B65",
+        "expected": 3729,
+        "observed": 3729,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B66",
+        "expected": 88.78571428571429,
+        "observed": 88.78571428571429,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B67",
+        "expected": 0.7619047619047619,
+        "observed": 0.7619047619047619,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B68",
+        "expected": 42,
+        "observed": 42,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B69",
+        "expected": 20,
+        "observed": 20,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B70",
+        "expected": 24,
+        "observed": 24,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B58",
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B59",
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B60",
+        "expected": 6,
+        "observed": 6,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B61",
+        "expected": 17,
+        "observed": 17,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "B62",
+        "expected": 15,
+        "observed": 15,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C50",
+        "expected": 44,
+        "observed": 44,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C51",
+        "expected": 42,
+        "observed": 42,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C52",
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C53",
+        "expected": 4,
+        "observed": 4,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C54",
+        "expected": 3116,
+        "observed": 3116,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C55",
+        "expected": 74.19047619047619,
+        "observed": 74.19047619047619,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C56",
+        "expected": 82.5,
+        "observed": 82.5,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C57",
+        "expected": 24.241088785108815,
+        "observed": 24.241088785108815,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C63",
+        "expected": 0.8095238095238095,
+        "observed": 0.8095238095238095,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C64",
+        "expected": 0.21428571428571427,
+        "observed": 0.21428571428571427,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C65",
+        "expected": 3338,
+        "observed": 3338,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C66",
+        "expected": 79.47619047619048,
+        "observed": 79.47619047619048,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C67",
+        "expected": 0.6190476190476191,
+        "observed": 0.6190476190476191,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C68",
+        "expected": 38,
+        "observed": 38,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C69",
+        "expected": 23,
+        "observed": 23,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C70",
+        "expected": 21,
+        "observed": 21,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C58",
+        "expected": 8,
+        "observed": 8,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C59",
+        "expected": 1,
+        "observed": 1,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C60",
+        "expected": 7,
+        "observed": 7,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C61",
+        "expected": 17,
+        "observed": 17,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "C62",
+        "expected": 9,
+        "observed": 9,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D50",
+        "expected": 42,
+        "observed": 42,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D51",
+        "expected": 40,
+        "observed": 40,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D52",
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D53",
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D54",
+        "expected": 3117,
+        "observed": 3117,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D55",
+        "expected": 77.925,
+        "observed": 77.925,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D56",
+        "expected": 86.5,
+        "observed": 86.5,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D57",
+        "expected": 23.005855232961892,
+        "observed": 23.005855232961892,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D63",
+        "expected": 0.875,
+        "observed": 0.875,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D64",
+        "expected": 0.375,
+        "observed": 0.375,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D65",
+        "expected": 3303,
+        "observed": 3303,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D66",
+        "expected": 82.575,
+        "observed": 82.575,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D67",
+        "expected": 0.65,
+        "observed": 0.65,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D68",
+        "expected": 38,
+        "observed": 38,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D69",
+        "expected": 21,
+        "observed": 21,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D70",
+        "expected": 21,
+        "observed": 21,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D58",
+        "expected": 5,
+        "observed": 5,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D59",
+        "expected": 1,
+        "observed": 1,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D60",
+        "expected": 8,
+        "observed": 8,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D61",
+        "expected": 11,
+        "observed": 11,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "D62",
+        "expected": 15,
+        "observed": 15,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E50",
+        "expected": 42,
+        "observed": 42,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E51",
+        "expected": 42,
+        "observed": 42,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E52",
+        "expected": 0,
+        "observed": 0,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E53",
+        "expected": 1,
+        "observed": 1,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E54",
+        "expected": 3280,
+        "observed": 3280,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E55",
+        "expected": 78.0952380952381,
+        "observed": 78.0952380952381,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E56",
+        "expected": 86.0,
+        "observed": 86,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E57",
+        "expected": 22.0549201117072,
+        "observed": 22.0549201117072,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E63",
+        "expected": 0.8333333333333334,
+        "observed": 0.8333333333333334,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E64",
+        "expected": 0.3333333333333333,
+        "observed": 0.3333333333333333,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E65",
+        "expected": 3534,
+        "observed": 3534,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E66",
+        "expected": 84.14285714285714,
+        "observed": 84.14285714285714,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E67",
+        "expected": 0.7142857142857143,
+        "observed": 0.7142857142857143,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E68",
+        "expected": 41,
+        "observed": 41,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E69",
+        "expected": 21,
+        "observed": 21,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E70",
+        "expected": 21,
+        "observed": 21,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E58",
+        "expected": 7,
+        "observed": 7,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E59",
+        "expected": 0,
+        "observed": 0,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E60",
+        "expected": 5,
+        "observed": 5,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E61",
+        "expected": 16,
+        "observed": 16,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "E62",
+        "expected": 14,
+        "observed": 14,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F50",
+        "expected": 42,
+        "observed": 42,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F51",
+        "expected": 40,
+        "observed": 40,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F52",
+        "expected": 2,
+        "observed": 2,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F53",
+        "expected": 0,
+        "observed": 0,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F54",
+        "expected": 2950,
+        "observed": 2950,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F55",
+        "expected": 73.75,
+        "observed": 73.75,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F56",
+        "expected": 79.0,
+        "observed": 79,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F57",
+        "expected": 20.79873794248103,
+        "observed": 20.79873794248103,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F63",
+        "expected": 0.85,
+        "observed": 0.85,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F64",
+        "expected": 0.175,
+        "observed": 0.175,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F65",
+        "expected": 3149,
+        "observed": 3149,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F66",
+        "expected": 78.725,
+        "observed": 78.725,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F67",
+        "expected": 0.475,
+        "observed": 0.475,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F68",
+        "expected": 40,
+        "observed": 40,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F69",
+        "expected": 20,
+        "observed": 20,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F70",
+        "expected": 22,
+        "observed": 22,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F58",
+        "expected": 6,
+        "observed": 6,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F59",
+        "expected": 5,
+        "observed": 5,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F60",
+        "expected": 10,
+        "observed": 10,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F61",
+        "expected": 12,
+        "observed": 12,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "F62",
+        "expected": 7,
+        "observed": 7,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G50",
+        "expected": 214,
+        "observed": 214,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G51",
+        "expected": 206,
+        "observed": 206,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G52",
+        "expected": 8,
+        "observed": 8,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G53",
+        "expected": 7,
+        "observed": 7,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G54",
+        "expected": 15948,
+        "observed": 15948,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G55",
+        "expected": 77.41747572815534,
+        "observed": 77.41747572815534,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G56",
+        "expected": 85.0,
+        "observed": 85,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G57",
+        "expected": 21.73205063255681,
+        "observed": 21.732050632556813,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G63",
+        "expected": 0.8640776699029126,
+        "observed": 0.8640776699029127,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G64",
+        "expected": 0.2912621359223301,
+        "observed": 0.2912621359223301,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G65",
+        "expected": 17053,
+        "observed": 17053,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G66",
+        "expected": 82.78155339805825,
+        "observed": 82.78155339805825,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G67",
+        "expected": 0.6456310679611651,
+        "observed": 0.6456310679611651,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G68",
+        "expected": 199,
+        "observed": 199,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G69",
+        "expected": 105,
+        "observed": 105,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G70",
+        "expected": 109,
+        "observed": 109,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G58",
+        "expected": 28,
+        "observed": 28,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G59",
+        "expected": 9,
+        "observed": 9,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G60",
+        "expected": 36,
+        "observed": 36,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G61",
+        "expected": 73,
+        "observed": 73,
+        "pass": true
+      },
+      {
+        "sheet": "四年级",
+        "cell": "G62",
+        "expected": 60,
+        "observed": 60,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "F7",
+        "expected": 82.98,
+        "observed": 82.98,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "L7",
+        "expected": 88.79,
+        "observed": 88.79,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "F8",
+        "expected": 74.19,
+        "observed": 74.19,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "L8",
+        "expected": 79.48,
+        "observed": 79.48,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "F9",
+        "expected": 77.93,
+        "observed": 77.93,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "L9",
+        "expected": 82.58,
+        "observed": 82.58,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "F10",
+        "expected": 78.1,
+        "observed": 78.1,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "L10",
+        "expected": 84.14,
+        "observed": 84.14,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "F11",
+        "expected": 73.75,
+        "observed": 73.75,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "L11",
+        "expected": 78.73,
+        "observed": 78.73,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "F12",
+        "expected": 77.42,
+        "observed": 77.42,
+        "pass": true
+      },
+      {
+        "sheet": "四年级分析",
+        "cell": "L12",
+        "expected": 82.78,
+        "observed": 82.78,
+        "pass": true
+      }
+    ],
+    "chart_reference_cache_checks": [
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "reference": "'四年级分析'!$A$7:$A$11",
+        "expected": [
+          "1班",
+          "2班",
+          "3班",
+          "4班",
+          "5班"
+        ],
+        "observed": [
+          "1班",
+          "2班",
+          "3班",
+          "4班",
+          "5班"
+        ],
+        "pass": true
+      },
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "reference": "'四年级分析'!$A$7:$A$11",
+        "expected": [
+          "1班",
+          "2班",
+          "3班",
+          "4班",
+          "5班"
+        ],
+        "observed": [
+          "1班",
+          "2班",
+          "3班",
+          "4班",
+          "5班"
+        ],
+        "pass": true
+      },
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "reference": "'四年级分析'!$F$7:$F$11",
+        "expected": [
+          82.98,
+          74.19,
+          77.93,
+          78.1,
+          73.75
+        ],
+        "observed": [
+          82.98,
+          74.19,
+          77.93,
+          78.1,
+          73.75
+        ],
+        "pass": true
+      },
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "reference": "'四年级分析'!$G$7:$G$11",
+        "expected": [
+          86.5,
+          82.5,
+          86.5,
+          86,
+          79
+        ],
+        "observed": [
+          86.5,
+          82.5,
+          86.5,
+          86,
+          79
+        ],
+        "pass": true
+      },
+      {
+        "chart": "xl/drawings/charts/chart2.xml",
+        "reference": "'四年级分析'!$I$18:$I$22",
+        "expected": [
+          "＜60",
+          "60—＜70",
+          "70—＜80",
+          "80—＜90",
+          "≥90"
+        ],
+        "observed": [
+          "＜60",
+          "60—＜70",
+          "70—＜80",
+          "80—＜90",
+          "≥90"
+        ],
+        "pass": true
+      },
+      {
+        "chart": "xl/drawings/charts/chart2.xml",
+        "reference": "'四年级分析'!$J$18:$J$22",
+        "expected": [
+          28,
+          9,
+          36,
+          73,
+          60
+        ],
+        "observed": [
+          28,
+          9,
+          36,
+          73,
+          60
+        ],
+        "pass": true
+      }
+    ],
+    "input_unchanged_after_audit": true
+  },
+  "historical_baseline_checks": [
+    {
+      "metric": "names",
+      "expected": 214,
+      "observed": 214,
+      "pass": true
+    },
+    {
+      "metric": "base_count",
+      "expected": 206,
+      "observed": 206,
+      "pass": true
+    },
+    {
+      "metric": "bonus_count",
+      "expected": 199,
+      "observed": 199,
+      "pass": true
+    },
+    {
+      "metric": "base_sum",
+      "expected": 15948,
+      "observed": 15948,
+      "pass": true
+    },
+    {
+      "metric": "total_sum",
+      "expected": 17053,
+      "observed": 17053,
+      "pass": true
+    },
+    {
+      "metric": "colored_names",
+      "expected": 19,
+      "observed": 19,
+      "pass": true
+    },
+    {
+      "metric": "missing_base",
+      "expected": 8,
+      "observed": 8,
+      "pass": true
+    },
+    {
+      "metric": "missing_bonus_with_base",
+      "expected": 7,
+      "observed": 7,
+      "pass": true
+    },
+    {
+      "metric": "class_names",
+      "expected": [
+        44,
+        44,
+        42,
+        42,
+        42
+      ],
+      "observed": [
+        44,
+        44,
+        42,
+        42,
+        42
+      ],
+      "pass": true
+    },
+    {
+      "metric": "class_base_count",
+      "expected": [
+        42,
+        42,
+        40,
+        42,
+        40
+      ],
+      "observed": [
+        42,
+        42,
+        40,
+        42,
+        40
+      ],
+      "pass": true
+    },
+    {
+      "metric": "base_bands",
+      "expected": [
+        28,
+        9,
+        36,
+        73,
+        60
+      ],
+      "observed": [
+        28,
+        9,
+        36,
+        73,
+        60
+      ],
+      "pass": true
+    }
+  ],
+  "historical_baseline_matches": true,
+  "current_summary": {
+    "names": 214,
+    "base_count": 206,
+    "bonus_count": 199,
+    "base_sum": 15948,
+    "bonus_sum": 1105,
+    "sum": 17053,
+    "total_sum": 17053,
+    "mean": 82.78155339805825,
+    "total_mean": 82.78155339805825,
+    "base_mean": 77.41747572815534,
+    "base_median": 85.0,
+    "base_sd": 21.73205063255681,
+    "bonus_mean_if_blank_zero": 5.364077669902913,
+    "bonus_mean_observed": 5.552763819095477,
+    "total_median": 90.0,
+    "base_bands": [
+      28,
+      9,
+      36,
+      73,
+      60
+    ],
+    "total_bands": [
+      27,
+      5,
+      22,
+      42,
+      77,
+      33
+    ],
+    "min": 0,
+    "max": 108,
+    "base_min": 0,
+    "base_max": 99,
+    "missing": [
+      {
+        "class": 1,
+        "row": 44,
+        "name": "刘美琪",
+        "cell": "A44",
+        "base": null,
+        "bonus": null
+      },
+      {
+        "class": 1,
+        "row": 45,
+        "name": "李航宇",
+        "cell": "A45",
+        "base": null,
+        "bonus": null
+      },
+      {
+        "class": 2,
+        "row": 12,
+        "name": "刘茗熙",
+        "cell": "F12",
+        "base": null,
+        "bonus": null
+      },
+      {
+        "class": 2,
+        "row": 45,
+        "name": "刘晋希",
+        "cell": "F45",
+        "base": null,
+        "bonus": null
+      },
+      {
+        "class": 3,
+        "row": 32,
+        "name": "温浩麟",
+        "cell": "K32",
+        "base": null,
+        "bonus": null
+      },
+      {
+        "class": 3,
+        "row": 42,
+        "name": "郑斯哲",
+        "cell": "K42",
+        "base": null,
+        "bonus": null
+      },
+      {
+        "class": 5,
+        "row": 13,
+        "name": "刘浩宇",
+        "cell": "U13",
+        "base": null,
+        "bonus": null
+      },
+      {
+        "class": 5,
+        "row": 21,
+        "name": "桑悦",
+        "cell": "U21",
+        "base": null,
+        "bonus": null
+      }
+    ],
+    "missing_bonus": [
+      {
+        "class": 2,
+        "row": 18,
+        "name": "曲浩岩",
+        "cell": "F18",
+        "base": 10,
+        "bonus": null
+      },
+      {
+        "class": 2,
+        "row": 28,
+        "name": "孙艺丹",
+        "cell": "F28",
+        "base": 43,
+        "bonus": null
+      },
+      {
+        "class": 2,
+        "row": 30,
+        "name": "王嘉恩",
+        "cell": "F30",
+        "base": 73,
+        "bonus": null
+      },
+      {
+        "class": 2,
+        "row": 43,
+        "name": "赵家辉",
+        "cell": "F43",
+        "base": 0,
+        "bonus": null
+      },
+      {
+        "class": 3,
+        "row": 7,
+        "name": "何浩杰",
+        "cell": "K7",
+        "base": 1,
+        "bonus": null
+      },
+      {
+        "class": 3,
+        "row": 23,
+        "name": "孙穆泽",
+        "cell": "K23",
+        "base": 71,
+        "bonus": null
+      },
+      {
+        "class": 4,
+        "row": 32,
+        "name": "王梦怡",
+        "cell": "P32",
+        "base": 13,
+        "bonus": null
+      }
+    ],
+    "bad_total": [],
+    "low": [
+      {
+        "class": 1,
+        "row": 3,
+        "name": "曹路峥",
+        "cell": "A3",
+        "base": 33,
+        "bonus": 0
+      },
+      {
+        "class": 1,
+        "row": 13,
+        "name": "梁欣悦",
+        "cell": "A13",
+        "base": 9,
+        "bonus": 0
+      },
+      {
+        "class": 2,
+        "row": 13,
+        "name": "刘思玥",
+        "cell": "F13",
+        "base": 48,
+        "bonus": 4
+      },
+      {
+        "class": 2,
+        "row": 18,
+        "name": "曲浩岩",
+        "cell": "F18",
+        "base": 10,
+        "bonus": null
+      },
+      {
+        "class": 2,
+        "row": 25,
+        "name": "孙一宸",
+        "cell": "F25",
+        "base": 15,
+        "bonus": 7
+      },
+      {
+        "class": 2,
+        "row": 28,
+        "name": "孙艺丹",
+        "cell": "F28",
+        "base": 43,
+        "bonus": null
+      },
+      {
+        "class": 2,
+        "row": 32,
+        "name": "王梦汝",
+        "cell": "F32",
+        "base": 35,
+        "bonus": 4
+      },
+      {
+        "class": 2,
+        "row": 35,
+        "name": "王治霖",
+        "cell": "F35",
+        "base": 40,
+        "bonus": 4
+      },
+      {
+        "class": 2,
+        "row": 37,
+        "name": "徐艺帆",
+        "cell": "F37",
+        "base": 43,
+        "bonus": 7
+      },
+      {
+        "class": 2,
+        "row": 43,
+        "name": "赵家辉",
+        "cell": "F43",
+        "base": 0,
+        "bonus": null
+      },
+      {
+        "class": 3,
+        "row": 4,
+        "name": "陈一菲",
+        "cell": "K4",
+        "base": 55,
+        "bonus": 4
+      },
+      {
+        "class": 3,
+        "row": 7,
+        "name": "何浩杰",
+        "cell": "K7",
+        "base": 1,
+        "bonus": null
+      },
+      {
+        "class": 3,
+        "row": 9,
+        "name": "胡语诺",
+        "cell": "K9",
+        "base": 0,
+        "bonus": 0
+      },
+      {
+        "class": 3,
+        "row": 28,
+        "name": "王睿",
+        "cell": "K28",
+        "base": 40,
+        "bonus": 4
+      },
+      {
+        "class": 3,
+        "row": 29,
+        "name": "王亚榕",
+        "cell": "K29",
+        "base": 25,
+        "bonus": 4
+      },
+      {
+        "class": 4,
+        "row": 20,
+        "name": "马昱材",
+        "cell": "P20",
+        "base": 15,
+        "bonus": 0
+      },
+      {
+        "class": 4,
+        "row": 31,
+        "name": "王珞筠",
+        "cell": "P31",
+        "base": 42,
+        "bonus": 4
+      },
+      {
+        "class": 4,
+        "row": 32,
+        "name": "王梦怡",
+        "cell": "P32",
+        "base": 13,
+        "bonus": null
+      },
+      {
+        "class": 4,
+        "row": 36,
+        "name": "徐紫祺",
+        "cell": "P36",
+        "base": 54,
+        "bonus": 4
+      },
+      {
+        "class": 4,
+        "row": 37,
+        "name": "于梓轩",
+        "cell": "P37",
+        "base": 6,
+        "bonus": 0
+      },
+      {
+        "class": 4,
+        "row": 39,
+        "name": "张佳伟",
+        "cell": "P39",
+        "base": 57,
+        "bonus": 3
+      },
+      {
+        "class": 4,
+        "row": 42,
+        "name": "张亦淼",
+        "cell": "P42",
+        "base": 54,
+        "bonus": 4
+      },
+      {
+        "class": 5,
+        "row": 15,
+        "name": "马学浩",
+        "cell": "U15",
+        "base": 25,
+        "bonus": 4
+      },
+      {
+        "class": 5,
+        "row": 16,
+        "name": "毛子淳",
+        "cell": "U16",
+        "base": 53,
+        "bonus": 4
+      },
+      {
+        "class": 5,
+        "row": 19,
+        "name": "牛韵茹",
+        "cell": "U19",
+        "base": 51,
+        "bonus": 4
+      },
+      {
+        "class": 5,
+        "row": 29,
+        "name": "邢益凡",
+        "cell": "U29",
+        "base": 52,
+        "bonus": 4
+      },
+      {
+        "class": 5,
+        "row": 36,
+        "name": "于佳俊",
+        "cell": "U36",
+        "base": 5,
+        "bonus": 4
+      },
+      {
+        "class": 5,
+        "row": 37,
+        "name": "于悦宁",
+        "cell": "U37",
+        "base": 8,
+        "bonus": 0
+      }
+    ],
+    "sex": {
+      "女": 109,
+      "男": 105
+    },
+    "complete_score_count": 199,
+    "base_ge60_ratio": 0.8640776699029126,
+    "base_ge80_ratio": 0.6456310679611651,
+    "base_ge90_ratio": 0.2912621359223301
+  },
+  "class_summaries": [
+    {
+      "names": 44,
+      "base_count": 42,
+      "bonus_count": 42,
+      "base_sum": 3485,
+      "bonus_sum": 244,
+      "sum": 3729,
+      "total_sum": 3729,
+      "mean": 88.78571428571429,
+      "total_mean": 88.78571428571429,
+      "base_mean": 82.97619047619048,
+      "base_median": 86.5,
+      "base_sd": 16.477239850975526,
+      "bonus_mean_if_blank_zero": 5.809523809523809,
+      "bonus_mean_observed": 5.809523809523809,
+      "total_median": 93.0,
+      "base_bands": [
+        2,
+        2,
+        6,
+        17,
+        15
+      ],
+      "total_bands": [
+        2,
+        1,
+        4,
+        9,
+        15,
+        11
+      ],
+      "min": 9,
+      "max": 107,
+      "base_min": 9,
+      "base_max": 97,
+      "missing": [
+        {
+          "class": 1,
+          "row": 44,
+          "name": "刘美琪",
+          "cell": "A44",
+          "base": null,
+          "bonus": null
+        },
+        {
+          "class": 1,
+          "row": 45,
+          "name": "李航宇",
+          "cell": "A45",
+          "base": null,
+          "bonus": null
+        }
+      ],
+      "missing_bonus": [],
+      "bad_total": [],
+      "low": [
+        {
+          "class": 1,
+          "row": 3,
+          "name": "曹路峥",
+          "cell": "A3",
+          "base": 33,
+          "bonus": 0
+        },
+        {
+          "class": 1,
+          "row": 13,
+          "name": "梁欣悦",
+          "cell": "A13",
+          "base": 9,
+          "bonus": 0
+        }
+      ],
+      "sex": {
+        "女": 24,
+        "男": 20
+      },
+      "complete_score_count": 42,
+      "base_ge60_ratio": 0.9523809523809523,
+      "base_ge80_ratio": 0.7619047619047619,
+      "base_ge90_ratio": 0.35714285714285715,
+      "class": 1,
+      "old_sum": 3687,
+      "old_count": 40,
+      "old_mean": 92.175,
+      "difference": 42
+    },
+    {
+      "names": 44,
+      "base_count": 42,
+      "bonus_count": 38,
+      "base_sum": 3116,
+      "bonus_sum": 222,
+      "sum": 3338,
+      "total_sum": 3338,
+      "mean": 79.47619047619048,
+      "total_mean": 79.47619047619048,
+      "base_mean": 74.19047619047619,
+      "base_median": 82.5,
+      "base_sd": 24.241088785108815,
+      "bonus_mean_if_blank_zero": 5.285714285714286,
+      "bonus_mean_observed": 5.842105263157895,
+      "total_median": 90.0,
+      "base_bands": [
+        8,
+        1,
+        7,
+        17,
+        9
+      ],
+      "total_bands": [
+        8,
+        1,
+        3,
+        8,
+        17,
+        5
+      ],
+      "min": 0,
+      "max": 106,
+      "base_min": 0,
+      "base_max": 99,
+      "missing": [
+        {
+          "class": 2,
+          "row": 12,
+          "name": "刘茗熙",
+          "cell": "F12",
+          "base": null,
+          "bonus": null
+        },
+        {
+          "class": 2,
+          "row": 45,
+          "name": "刘晋希",
+          "cell": "F45",
+          "base": null,
+          "bonus": null
+        }
+      ],
+      "missing_bonus": [
+        {
+          "class": 2,
+          "row": 18,
+          "name": "曲浩岩",
+          "cell": "F18",
+          "base": 10,
+          "bonus": null
+        },
+        {
+          "class": 2,
+          "row": 28,
+          "name": "孙艺丹",
+          "cell": "F28",
+          "base": 43,
+          "bonus": null
+        },
+        {
+          "class": 2,
+          "row": 30,
+          "name": "王嘉恩",
+          "cell": "F30",
+          "base": 73,
+          "bonus": null
+        },
+        {
+          "class": 2,
+          "row": 43,
+          "name": "赵家辉",
+          "cell": "F43",
+          "base": 0,
+          "bonus": null
+        }
+      ],
+      "bad_total": [],
+      "low": [
+        {
+          "class": 2,
+          "row": 13,
+          "name": "刘思玥",
+          "cell": "F13",
+          "base": 48,
+          "bonus": 4
+        },
+        {
+          "class": 2,
+          "row": 18,
+          "name": "曲浩岩",
+          "cell": "F18",
+          "base": 10,
+          "bonus": null
+        },
+        {
+          "class": 2,
+          "row": 25,
+          "name": "孙一宸",
+          "cell": "F25",
+          "base": 15,
+          "bonus": 7
+        },
+        {
+          "class": 2,
+          "row": 28,
+          "name": "孙艺丹",
+          "cell": "F28",
+          "base": 43,
+          "bonus": null
+        },
+        {
+          "class": 2,
+          "row": 32,
+          "name": "王梦汝",
+          "cell": "F32",
+          "base": 35,
+          "bonus": 4
+        },
+        {
+          "class": 2,
+          "row": 35,
+          "name": "王治霖",
+          "cell": "F35",
+          "base": 40,
+          "bonus": 4
+        },
+        {
+          "class": 2,
+          "row": 37,
+          "name": "徐艺帆",
+          "cell": "F37",
+          "base": 43,
+          "bonus": 7
+        },
+        {
+          "class": 2,
+          "row": 43,
+          "name": "赵家辉",
+          "cell": "F43",
+          "base": 0,
+          "bonus": null
+        }
+      ],
+      "sex": {
+        "男": 23,
+        "女": 21
+      },
+      "complete_score_count": 38,
+      "base_ge60_ratio": 0.8095238095238095,
+      "base_ge80_ratio": 0.6190476190476191,
+      "base_ge90_ratio": 0.21428571428571427,
+      "class": 2,
+      "old_sum": 3328,
+      "old_count": 40,
+      "old_mean": 83.2,
+      "difference": 10
+    },
+    {
+      "names": 42,
+      "base_count": 40,
+      "bonus_count": 38,
+      "base_sum": 3117,
+      "bonus_sum": 186,
+      "sum": 3303,
+      "total_sum": 3303,
+      "mean": 82.575,
+      "total_mean": 82.575,
+      "base_mean": 77.925,
+      "base_median": 86.5,
+      "base_sd": 23.005855232961892,
+      "bonus_mean_if_blank_zero": 4.65,
+      "bonus_mean_observed": 4.894736842105263,
+      "total_median": 90.5,
+      "base_bands": [
+        5,
+        1,
+        8,
+        11,
+        15
+      ],
+      "total_bands": [
+        5,
+        0,
+        5,
+        8,
+        17,
+        5
+      ],
+      "min": 0,
+      "max": 107,
+      "base_min": 0,
+      "base_max": 98,
+      "missing": [
+        {
+          "class": 3,
+          "row": 32,
+          "name": "温浩麟",
+          "cell": "K32",
+          "base": null,
+          "bonus": null
+        },
+        {
+          "class": 3,
+          "row": 42,
+          "name": "郑斯哲",
+          "cell": "K42",
+          "base": null,
+          "bonus": null
+        }
+      ],
+      "missing_bonus": [
+        {
+          "class": 3,
+          "row": 7,
+          "name": "何浩杰",
+          "cell": "K7",
+          "base": 1,
+          "bonus": null
+        },
+        {
+          "class": 3,
+          "row": 23,
+          "name": "孙穆泽",
+          "cell": "K23",
+          "base": 71,
+          "bonus": null
+        }
+      ],
+      "bad_total": [],
+      "low": [
+        {
+          "class": 3,
+          "row": 4,
+          "name": "陈一菲",
+          "cell": "K4",
+          "base": 55,
+          "bonus": 4
+        },
+        {
+          "class": 3,
+          "row": 7,
+          "name": "何浩杰",
+          "cell": "K7",
+          "base": 1,
+          "bonus": null
+        },
+        {
+          "class": 3,
+          "row": 9,
+          "name": "胡语诺",
+          "cell": "K9",
+          "base": 0,
+          "bonus": 0
+        },
+        {
+          "class": 3,
+          "row": 28,
+          "name": "王睿",
+          "cell": "K28",
+          "base": 40,
+          "bonus": 4
+        },
+        {
+          "class": 3,
+          "row": 29,
+          "name": "王亚榕",
+          "cell": "K29",
+          "base": 25,
+          "bonus": 4
+        }
+      ],
+      "sex": {
+        "男": 21,
+        "女": 21
+      },
+      "complete_score_count": 38,
+      "base_ge60_ratio": 0.875,
+      "base_ge80_ratio": 0.65,
+      "base_ge90_ratio": 0.375,
+      "class": 3,
+      "old_sum": 3273,
+      "old_count": 37,
+      "old_mean": 88.459,
+      "difference": 30
+    },
+    {
+      "names": 42,
+      "base_count": 42,
+      "bonus_count": 41,
+      "base_sum": 3280,
+      "bonus_sum": 254,
+      "sum": 3534,
+      "total_sum": 3534,
+      "mean": 84.14285714285714,
+      "total_mean": 84.14285714285714,
+      "base_mean": 78.0952380952381,
+      "base_median": 86.0,
+      "base_sd": 22.0549201117072,
+      "bonus_mean_if_blank_zero": 6.0476190476190474,
+      "bonus_mean_observed": 6.195121951219512,
+      "total_median": 93.0,
+      "base_bands": [
+        7,
+        0,
+        5,
+        16,
+        14
+      ],
+      "total_bands": [
+        6,
+        1,
+        2,
+        8,
+        17,
+        8
+      ],
+      "min": 6,
+      "max": 108,
+      "base_min": 6,
+      "base_max": 98,
+      "missing": [],
+      "missing_bonus": [
+        {
+          "class": 4,
+          "row": 32,
+          "name": "王梦怡",
+          "cell": "P32",
+          "base": 13,
+          "bonus": null
+        }
+      ],
+      "bad_total": [],
+      "low": [
+        {
+          "class": 4,
+          "row": 20,
+          "name": "马昱材",
+          "cell": "P20",
+          "base": 15,
+          "bonus": 0
+        },
+        {
+          "class": 4,
+          "row": 31,
+          "name": "王珞筠",
+          "cell": "P31",
+          "base": 42,
+          "bonus": 4
+        },
+        {
+          "class": 4,
+          "row": 32,
+          "name": "王梦怡",
+          "cell": "P32",
+          "base": 13,
+          "bonus": null
+        },
+        {
+          "class": 4,
+          "row": 36,
+          "name": "徐紫祺",
+          "cell": "P36",
+          "base": 54,
+          "bonus": 4
+        },
+        {
+          "class": 4,
+          "row": 37,
+          "name": "于梓轩",
+          "cell": "P37",
+          "base": 6,
+          "bonus": 0
+        },
+        {
+          "class": 4,
+          "row": 39,
+          "name": "张佳伟",
+          "cell": "P39",
+          "base": 57,
+          "bonus": 3
+        },
+        {
+          "class": 4,
+          "row": 42,
+          "name": "张亦淼",
+          "cell": "P42",
+          "base": 54,
+          "bonus": 4
+        }
+      ],
+      "sex": {
+        "女": 21,
+        "男": 21
+      },
+      "complete_score_count": 41,
+      "base_ge60_ratio": 0.8333333333333334,
+      "base_ge80_ratio": 0.7142857142857143,
+      "base_ge90_ratio": 0.3333333333333333,
+      "class": 4,
+      "old_sum": 3515,
+      "old_count": 40,
+      "old_mean": 87.875,
+      "difference": 19
+    },
+    {
+      "names": 42,
+      "base_count": 40,
+      "bonus_count": 40,
+      "base_sum": 2950,
+      "bonus_sum": 199,
+      "sum": 3149,
+      "total_sum": 3149,
+      "mean": 78.725,
+      "total_mean": 78.725,
+      "base_mean": 73.75,
+      "base_median": 79.0,
+      "base_sd": 20.79873794248103,
+      "bonus_mean_if_blank_zero": 4.975,
+      "bonus_mean_observed": 4.975,
+      "total_median": 83.0,
+      "base_bands": [
+        6,
+        5,
+        10,
+        12,
+        7
+      ],
+      "total_bands": [
+        6,
+        2,
+        8,
+        9,
+        11,
+        4
+      ],
+      "min": 8,
+      "max": 101,
+      "base_min": 5,
+      "base_max": 94,
+      "missing": [
+        {
+          "class": 5,
+          "row": 13,
+          "name": "刘浩宇",
+          "cell": "U13",
+          "base": null,
+          "bonus": null
+        },
+        {
+          "class": 5,
+          "row": 21,
+          "name": "桑悦",
+          "cell": "U21",
+          "base": null,
+          "bonus": null
+        }
+      ],
+      "missing_bonus": [],
+      "bad_total": [],
+      "low": [
+        {
+          "class": 5,
+          "row": 15,
+          "name": "马学浩",
+          "cell": "U15",
+          "base": 25,
+          "bonus": 4
+        },
+        {
+          "class": 5,
+          "row": 16,
+          "name": "毛子淳",
+          "cell": "U16",
+          "base": 53,
+          "bonus": 4
+        },
+        {
+          "class": 5,
+          "row": 19,
+          "name": "牛韵茹",
+          "cell": "U19",
+          "base": 51,
+          "bonus": 4
+        },
+        {
+          "class": 5,
+          "row": 29,
+          "name": "邢益凡",
+          "cell": "U29",
+          "base": 52,
+          "bonus": 4
+        },
+        {
+          "class": 5,
+          "row": 36,
+          "name": "于佳俊",
+          "cell": "U36",
+          "base": 5,
+          "bonus": 4
+        },
+        {
+          "class": 5,
+          "row": 37,
+          "name": "于悦宁",
+          "cell": "U37",
+          "base": 8,
+          "bonus": 0
+        }
+      ],
+      "sex": {
+        "男": 20,
+        "女": 22
+      },
+      "complete_score_count": 40,
+      "base_ge60_ratio": 0.85,
+      "base_ge80_ratio": 0.475,
+      "base_ge90_ratio": 0.175,
+      "class": 5,
+      "old_sum": 3129,
+      "old_count": 38,
+      "old_mean": 82.342,
+      "difference": 20
+    }
+  ],
+  "original_manual_summary_as_stored_in_current_input": [
+    {
+      "class": 1,
+      "sum": 3687,
+      "count": 40,
+      "mean": 92.175,
+      "source_sheet": "数据核查",
+      "source_cells": [
+        "B6",
+        "B7",
+        "B8"
+      ]
+    },
+    {
+      "class": 2,
+      "sum": 3328,
+      "count": 40,
+      "mean": 83.2,
+      "source_sheet": "数据核查",
+      "source_cells": [
+        "C6",
+        "C7",
+        "C8"
+      ]
+    },
+    {
+      "class": 3,
+      "sum": 3273,
+      "count": 37,
+      "mean": 88.459,
+      "source_sheet": "数据核查",
+      "source_cells": [
+        "D6",
+        "D7",
+        "D8"
+      ]
+    },
+    {
+      "class": 4,
+      "sum": 3515,
+      "count": 40,
+      "mean": 87.875,
+      "source_sheet": "数据核查",
+      "source_cells": [
+        "E6",
+        "E7",
+        "E8"
+      ]
+    },
+    {
+      "class": 5,
+      "sum": 3129,
+      "count": 38,
+      "mean": 82.342,
+      "source_sheet": "数据核查",
+      "source_cells": [
+        "F6",
+        "F7",
+        "F8"
+      ]
+    }
+  ],
+  "colored_names": [
+    {
+      "class": 1,
+      "row": 3,
+      "name": "曹路峥",
+      "cell": "A3",
+      "base": 33,
+      "bonus": 0,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FF00B050"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "绿字",
+        "is_marked": true
+      },
+      "reference_total": 33
+    },
+    {
+      "class": 1,
+      "row": 13,
+      "name": "梁欣悦",
+      "cell": "A13",
+      "base": 9,
+      "bonus": 0,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FF00B050"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "绿字",
+        "is_marked": true
+      },
+      "reference_total": 9
+    },
+    {
+      "class": 1,
+      "row": 44,
+      "name": "刘美琪",
+      "cell": "A44",
+      "base": null,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "theme": "1"
+        },
+        "fill_color": {
+          "rgb": "FFFFFF00"
+        },
+        "fill_pattern": "solid",
+        "mark": "黄底",
+        "is_marked": true
+      },
+      "reference_total": null
+    },
+    {
+      "class": 1,
+      "row": 45,
+      "name": "李航宇",
+      "cell": "A45",
+      "base": null,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": null
+    },
+    {
+      "class": 2,
+      "row": 12,
+      "name": "刘茗熙",
+      "cell": "F12",
+      "base": null,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FF00B0F0"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "蓝字",
+        "is_marked": true
+      },
+      "reference_total": null
+    },
+    {
+      "class": 2,
+      "row": 18,
+      "name": "曲浩岩",
+      "cell": "F18",
+      "base": 10,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 10
+    },
+    {
+      "class": 2,
+      "row": 43,
+      "name": "赵家辉",
+      "cell": "F43",
+      "base": 0,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 0
+    },
+    {
+      "class": 2,
+      "row": 45,
+      "name": "刘晋希",
+      "cell": "F45",
+      "base": null,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "indexed": "8"
+        },
+        "fill_color": {
+          "rgb": "FFFFFF00"
+        },
+        "fill_pattern": "solid",
+        "mark": "黄底",
+        "is_marked": true
+      },
+      "reference_total": null
+    },
+    {
+      "class": 3,
+      "row": 7,
+      "name": "何浩杰",
+      "cell": "K7",
+      "base": 1,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 1
+    },
+    {
+      "class": 3,
+      "row": 9,
+      "name": "胡语诺",
+      "cell": "K9",
+      "base": 0,
+      "bonus": 0,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 0
+    },
+    {
+      "class": 3,
+      "row": 29,
+      "name": "王亚榕",
+      "cell": "K29",
+      "base": 25,
+      "bonus": 4,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 29
+    },
+    {
+      "class": 3,
+      "row": 32,
+      "name": "温浩麟",
+      "cell": "K32",
+      "base": null,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": null
+    },
+    {
+      "class": 3,
+      "row": 42,
+      "name": "郑斯哲",
+      "cell": "K42",
+      "base": null,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": null
+    },
+    {
+      "class": 4,
+      "row": 32,
+      "name": "王梦怡",
+      "cell": "P32",
+      "base": 13,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 13
+    },
+    {
+      "class": 4,
+      "row": 37,
+      "name": "于梓轩",
+      "cell": "P37",
+      "base": 6,
+      "bonus": 0,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 6
+    },
+    {
+      "class": 5,
+      "row": 13,
+      "name": "刘浩宇",
+      "cell": "U13",
+      "base": null,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": null
+    },
+    {
+      "class": 5,
+      "row": 21,
+      "name": "桑悦",
+      "cell": "U21",
+      "base": null,
+      "bonus": null,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FF00B0F0"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "蓝字",
+        "is_marked": true
+      },
+      "reference_total": null
+    },
+    {
+      "class": 5,
+      "row": 36,
+      "name": "于佳俊",
+      "cell": "U36",
+      "base": 5,
+      "bonus": 4,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 9
+    },
+    {
+      "class": 5,
+      "row": 37,
+      "name": "于悦宁",
+      "cell": "U37",
+      "base": 8,
+      "bonus": 0,
+      "name_colors": {
+        "font_color": {
+          "rgb": "FFFF0000"
+        },
+        "fill_color": null,
+        "fill_pattern": "none",
+        "mark": "红字",
+        "is_marked": true
+      },
+      "reference_total": 8
+    }
+  ],
+  "color_exclusion_scenario": {
+    "status": "仅作条件复算；颜色含义未经确认，不改变主分析名单。",
+    "classes": [
+      {
+        "class": 1,
+        "marked_count": 4,
+        "count": 40,
+        "sum": 3687,
+        "mean": 92.175,
+        "old_sum": 3687,
+        "old_count": 40,
+        "old_minus_conditioned": 0,
+        "remaining_missing_bonus": []
+      },
+      {
+        "class": 2,
+        "marked_count": 4,
+        "count": 40,
+        "sum": 3328,
+        "mean": 83.2,
+        "old_sum": 3328,
+        "old_count": 40,
+        "old_minus_conditioned": 0,
+        "remaining_missing_bonus": [
+          {
+            "class": 2,
+            "row": 28,
+            "name": "孙艺丹",
+            "cell": "F28",
+            "base": 43,
+            "bonus": null
+          },
+          {
+            "class": 2,
+            "row": 30,
+            "name": "王嘉恩",
+            "cell": "F30",
+            "base": 73,
+            "bonus": null
+          }
+        ]
+      },
+      {
+        "class": 3,
+        "marked_count": 5,
+        "count": 37,
+        "sum": 3273,
+        "mean": 88.45945945945945,
+        "old_sum": 3273,
+        "old_count": 37,
+        "old_minus_conditioned": 0,
+        "remaining_missing_bonus": [
+          {
+            "class": 3,
+            "row": 23,
+            "name": "孙穆泽",
+            "cell": "K23",
+            "base": 71,
+            "bonus": null
+          }
+        ]
+      },
+      {
+        "class": 4,
+        "marked_count": 2,
+        "count": 40,
+        "sum": 3515,
+        "mean": 87.875,
+        "old_sum": 3515,
+        "old_count": 40,
+        "old_minus_conditioned": 0,
+        "remaining_missing_bonus": []
+      },
+      {
+        "class": 5,
+        "marked_count": 4,
+        "count": 38,
+        "sum": 3132,
+        "mean": 82.42105263157895,
+        "old_sum": 3129,
+        "old_count": 38,
+        "old_minus_conditioned": -3,
+        "remaining_missing_bonus": []
+      }
+    ]
+  },
+  "fifth_class_old_sum_feasibility": {
+    "current_reference_sum": 3149,
+    "old_sum": 3129,
+    "any_existing_numeric_total_subset_can_match_old_sum": false,
+    "note": "只检查当前数值成绩子集；未录成绩或未同步改分不在本检验中。"
+  },
+  "missing_base": [
+    {
+      "class": 1,
+      "row": 44,
+      "name": "刘美琪",
+      "cell": "A44",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 1,
+      "row": 45,
+      "name": "李航宇",
+      "cell": "A45",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 12,
+      "name": "刘茗熙",
+      "cell": "F12",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 45,
+      "name": "刘晋希",
+      "cell": "F45",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 3,
+      "row": 32,
+      "name": "温浩麟",
+      "cell": "K32",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 3,
+      "row": 42,
+      "name": "郑斯哲",
+      "cell": "K42",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 5,
+      "row": 13,
+      "name": "刘浩宇",
+      "cell": "U13",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 5,
+      "row": 21,
+      "name": "桑悦",
+      "cell": "U21",
+      "base": null,
+      "bonus": null
+    }
+  ],
+  "missing_bonus_with_base": [
+    {
+      "class": 2,
+      "row": 18,
+      "name": "曲浩岩",
+      "cell": "F18",
+      "base": 10,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 28,
+      "name": "孙艺丹",
+      "cell": "F28",
+      "base": 43,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 30,
+      "name": "王嘉恩",
+      "cell": "F30",
+      "base": 73,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 43,
+      "name": "赵家辉",
+      "cell": "F43",
+      "base": 0,
+      "bonus": null
+    },
+    {
+      "class": 3,
+      "row": 7,
+      "name": "何浩杰",
+      "cell": "K7",
+      "base": 1,
+      "bonus": null
+    },
+    {
+      "class": 3,
+      "row": 23,
+      "name": "孙穆泽",
+      "cell": "K23",
+      "base": 71,
+      "bonus": null
+    },
+    {
+      "class": 4,
+      "row": 32,
+      "name": "王梦怡",
+      "cell": "P32",
+      "base": 13,
+      "bonus": null
+    }
+  ],
+  "all_missing_bonus": [
+    {
+      "class": 1,
+      "row": 44,
+      "name": "刘美琪",
+      "cell": "A44",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 1,
+      "row": 45,
+      "name": "李航宇",
+      "cell": "A45",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 12,
+      "name": "刘茗熙",
+      "cell": "F12",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 18,
+      "name": "曲浩岩",
+      "cell": "F18",
+      "base": 10,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 28,
+      "name": "孙艺丹",
+      "cell": "F28",
+      "base": 43,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 30,
+      "name": "王嘉恩",
+      "cell": "F30",
+      "base": 73,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 43,
+      "name": "赵家辉",
+      "cell": "F43",
+      "base": 0,
+      "bonus": null
+    },
+    {
+      "class": 2,
+      "row": 45,
+      "name": "刘晋希",
+      "cell": "F45",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 3,
+      "row": 7,
+      "name": "何浩杰",
+      "cell": "K7",
+      "base": 1,
+      "bonus": null
+    },
+    {
+      "class": 3,
+      "row": 23,
+      "name": "孙穆泽",
+      "cell": "K23",
+      "base": 71,
+      "bonus": null
+    },
+    {
+      "class": 3,
+      "row": 32,
+      "name": "温浩麟",
+      "cell": "K32",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 3,
+      "row": 42,
+      "name": "郑斯哲",
+      "cell": "K42",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 4,
+      "row": 32,
+      "name": "王梦怡",
+      "cell": "P32",
+      "base": 13,
+      "bonus": null
+    },
+    {
+      "class": 5,
+      "row": 13,
+      "name": "刘浩宇",
+      "cell": "U13",
+      "base": null,
+      "bonus": null
+    },
+    {
+      "class": 5,
+      "row": 21,
+      "name": "桑悦",
+      "cell": "U21",
+      "base": null,
+      "bonus": null
+    }
+  ],
+  "explicit_zero_score_cells": [
+    {
+      "class": 1,
+      "row": 3,
+      "name": "曹路峥",
+      "cell": "A3",
+      "base": 33,
+      "bonus": 0,
+      "field": "bonus",
+      "score_cell": "D3",
+      "raw_value": 0
+    },
+    {
+      "class": 1,
+      "row": 13,
+      "name": "梁欣悦",
+      "cell": "A13",
+      "base": 9,
+      "bonus": 0,
+      "field": "bonus",
+      "score_cell": "D13",
+      "raw_value": 0
+    },
+    {
+      "class": 2,
+      "row": 43,
+      "name": "赵家辉",
+      "cell": "F43",
+      "base": 0,
+      "bonus": null,
+      "field": "base",
+      "score_cell": "H43",
+      "raw_value": 0
+    },
+    {
+      "class": 3,
+      "row": 9,
+      "name": "胡语诺",
+      "cell": "K9",
+      "base": 0,
+      "bonus": 0,
+      "field": "base",
+      "score_cell": "M9",
+      "raw_value": 0
+    },
+    {
+      "class": 3,
+      "row": 9,
+      "name": "胡语诺",
+      "cell": "K9",
+      "base": 0,
+      "bonus": 0,
+      "field": "bonus",
+      "score_cell": "N9",
+      "raw_value": 0
+    },
+    {
+      "class": 4,
+      "row": 20,
+      "name": "马昱材",
+      "cell": "P20",
+      "base": 15,
+      "bonus": 0,
+      "field": "bonus",
+      "score_cell": "S20",
+      "raw_value": 0
+    },
+    {
+      "class": 4,
+      "row": 37,
+      "name": "于梓轩",
+      "cell": "P37",
+      "base": 6,
+      "bonus": 0,
+      "field": "bonus",
+      "score_cell": "S37",
+      "raw_value": 0
+    },
+    {
+      "class": 5,
+      "row": 37,
+      "name": "于悦宁",
+      "cell": "U37",
+      "base": 8,
+      "bonus": 0,
+      "field": "bonus",
+      "score_cell": "X37",
+      "raw_value": 0
+    }
+  ],
+  "summary_in_student_total_position": [],
+  "duplicate_names_within_class": [],
+  "duplicate_names_across_classes": [
+    {
+      "name": "刘浩宇",
+      "records": [
+        {
+          "class": 2,
+          "row": 11,
+          "name": "刘浩宇",
+          "cell": "F11",
+          "base": 97,
+          "bonus": 7
+        },
+        {
+          "class": 5,
+          "row": 13,
+          "name": "刘浩宇",
+          "cell": "U13",
+          "base": null,
+          "bonus": null
+        }
+      ]
+    }
+  ],
+  "name_whitespace_or_control_characters": [],
+  "numeric_scores_stored_as_text": [],
+  "other_nonnumeric_score_values": [],
+  "invalid_sex_values": [],
+  "formula_error_cells": []
+}
